@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "weaterApp",
-    "slug": "weaterApp",
+    "slug": "weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "86f7a84c-ca02-4224-8f59-dd3c0508f66e"
+      }
+    },
+    "owner": "dubok27"
   }
 }
